@@ -1,9 +1,12 @@
+import Nav from './Nav';
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
-        <>
-        <img src="src\images\Logo.png" alt="logo"/>
-        <Header/>
-        </>
+        <header>
+        <Link to="/"><img src=".\images\Logo.png" alt="logo"/></Link>
+        <Nav/>
+        </header>
     )
 };
 

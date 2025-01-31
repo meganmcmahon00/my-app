@@ -43,12 +43,12 @@ label {
 	line-height: 48.01px;
 	letter-spacing: 0em;
 	text-align: left;
-	color: #FFFFFF;
+	color: #EDEFEE;
 	margin: 0;
 }
 
 .desc {
-	color: #FFFFFF;
+	color: #EDEFEE;
 	font-family: 'Karla', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
@@ -62,7 +62,7 @@ label {
 }
 
 .nav-item {
-	color: #040404;
+	color: #333333;
 	font-weight: 600;
 	text-decoration: inherit;
 	font-family: 'Markazi', sans-serif;
@@ -137,7 +137,7 @@ label {
 }
 
 .desc-title {
-	color: #000000;
+	color: #333333;
 }
 
 .desc-subtitle {
@@ -151,7 +151,7 @@ label {
 	line-height: 23px;
 	letter-spacing: 0em;
 	text-align: justified;
-	color: #000000;
+	color: #333333;
 }
 
 footer {
@@ -305,6 +305,13 @@ select {
 	border-top-right-radius: 16px;
 }
 
+.delivery-img {
+	width: 10%;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	align-self: center;
+}
+
 .cards,
 .testimonials {
 	display: flex;
@@ -312,6 +319,7 @@ select {
 	gap: 1em;
 	align-items: stretch;
 	justify-content: center;
+	
 }
 
 .card,
@@ -324,6 +332,16 @@ select {
 }
 
 .card {
+	background-color: #EDEFEE;
+	border-radius: 16px;
+	position: relative;
+}
+
+.testimonials-parent {
+	background-color: #495E57;
+}
+
+.testimonial {
 	background-color: #EDEFEE;
 	border-radius: 16px;
 	position: relative;
@@ -345,10 +363,10 @@ select {
 
 }
 
-.name-price,
+.item-price,
 .item-desc,
 .delivery,
-.name-rating,
+.reviewer-rating,
 .reviewer-name,
 .review-text {
 	padding-inline: 1em;
@@ -365,6 +383,8 @@ select {
 .desc-img {
 	width: 25%;
 }
+
+
 
 .testimonials-parent {
 	padding-block: 2em;

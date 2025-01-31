@@ -241,7 +241,7 @@ input[type="date"],
 input[type="text"],
 input[type="number"],
 select {
-	color: #33333;
+	color: #333333;
 	background-color: #f7f7f7;
 	border: 2px solid #ccc;
 	border-radius: 5px;

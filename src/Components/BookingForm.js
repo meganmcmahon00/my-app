@@ -1,5 +1,5 @@
-import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function BookingForm({availableTimes, dispatch, submitForm}) {
     console.log(dispatch)
@@ -13,6 +13,8 @@ function BookingForm({availableTimes, dispatch, submitForm}) {
         occasion: "Birthday"
     })
 
+    const navigate = useNavigate();
+    
     const handleFormChange = (event) => {
       const { name, value } = event.target
       setFormData((prevFormData) => ({
@@ -85,6 +87,6 @@ function BookingForm({availableTimes, dispatch, submitForm}) {
       </form>
       </main>
     )
-  }
+  };
   
 export default BookingForm;
